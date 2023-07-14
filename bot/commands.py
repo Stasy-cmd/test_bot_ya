@@ -101,7 +101,7 @@ async def post_command(message: types.Message):
     media.attach_photo(types.InputFile("data/post/2.jpg"))
     media.attach_photo(types.InputFile("data/post/3.png"))
     media.attach_photo(types.InputFile("data/post/4.jpg"))
-    media.attach_video(types.InputFile("data/post/video.MOV"))
+    media.attach_video(types.InputFile("data/post/video.mov"))
     await message.answer_media_group(media=media)
     await message.answer(
         "<b>Главное меню</b>", parse_mode="HTML", reply_markup=get_button_all()
