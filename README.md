@@ -45,3 +45,6 @@ pip install -r requirements.txt
 ```
 python3 main.py
 
+## Автор
+- ###### [Марочкина Анастасия](https://github.com/Stasy-cmd)
+
