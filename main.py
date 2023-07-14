@@ -26,7 +26,6 @@ if __name__ == "__main__":
     dp = Dispatcher(bot, storage=storage)
 
     dp.register_message_handler(start_command, commands=["start"])
-    dp.register_message_handler(next_command, commands=["nextstep"])
     dp.register_message_handler(menu_command, commands=["menu"])
 
     dp.register_message_handler(
@@ -72,5 +71,6 @@ if __name__ == "__main__":
     )
 
     dp.message_handler(start_command, commands=["see_menu"])
+    dp.register_message_handler(next_command, commands=["nextstep"])
 
     executor.start_polling(dp, skip_updates=True)
