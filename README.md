@@ -44,7 +44,8 @@ pip install -r requirements.txt
 7. Запустить проект:
 ```
 python3 main.py
+```
 
-## Автор
-- ###### [Марочкина Анастасия](https://github.com/Stasy-cmd)
+### Автор
+[Марочкина Анастасия](https://github.com/Stasy-cmd)
 
